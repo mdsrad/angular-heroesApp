@@ -10,6 +10,8 @@ import { MaterialModule } from '../material/material.module';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { NgModule } from '@angular/core';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
     CommonModule,
     HeroesRoutingModule,
     MaterialModule,
+    ReactiveFormsModule,
   ]
 })
 export class HeroesModule { }
