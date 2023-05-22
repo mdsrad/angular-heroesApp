@@ -11,6 +11,7 @@ import { NewPageComponent } from './pages/new-page/new-page.component';
 import { NgModule } from '@angular/core';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ListPageComponent,
     NewPageComponent,
     SearchPageComponent,
+    ConfirmDialogComponent,
   ],
   imports: [
     CommonModule,

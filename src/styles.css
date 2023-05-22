@@ -9,3 +9,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .resumen {
   width: 350px;
 }
+.addEdit{
+  width: 530px;
+}
